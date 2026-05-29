@@ -73,12 +73,12 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
 .grid-header-tag{font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--bronze);border:1px solid rgba(200,137,74,.3);padding:4px 12px}
 
 /* ── GRID ── */
-.grid{padding:0 var(--pad) 5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:1px;background:var(--rule)}
+.grid{padding:0 var(--pad) 5rem;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule)}
 .project{background:var(--bg2);display:flex;flex-direction:column;transition:background .3s;position:relative;overflow:hidden}
 .project::after{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--bronze);transform:scaleX(0);transform-origin:left;transition:transform .4s}
 .project:hover{background:var(--bg3)}
 .project:hover::after{transform:scaleX(1)}
-.proj-img{width:100%;height:380px;overflow:hidden;background:var(--bg3);flex-shrink:0}
+.proj-img{width:100%;height:220px;overflow:hidden;background:var(--bg3);flex-shrink:0}
 .proj-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
 .project:hover .proj-img img{transform:scale(1.04)}
 .proj-body{padding:2rem;display:flex;flex-direction:column;flex:1}
@@ -116,7 +116,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
 /* ── RESPONSIVE ── */
 @media(max-width:900px){
   :root{--pad:1.75rem}
-  .grid{grid-template-columns:1fr;padding-left:0;padding-right:0}
+  .grid{grid-template-columns:1fr 1fr;padding-left:0;padding-right:0}
   .grid-header{padding-left:var(--pad);padding-right:var(--pad)}
   .cta-row{flex-direction:column;align-items:flex-start}
   .footer{flex-direction:column;align-items:flex-start}
@@ -167,7 +167,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
   </div>
   <div class="grid reveal">
     <div class="project">
-      <div class="proj-img"><img src="https://cdn.shopify.com/s/files/1/0773/2589/3810/files/NAVICO_1.jpg?v=1779345574" alt="NAVICO Marine Electronics" loading="lazy"></div>
+      <div class="proj-img"><img src="https://res.cloudinary.com/dtxr6zjwc/image/upload/f_auto,q_auto/v1780047444/NAVICO_1_f7kmyw.jpg" alt="NAVICO Marine Electronics" loading="lazy"></div>
       <div class="proj-body">
         <div class="proj-num">01</div>
         <div class="proj-company">NAVICO — Simrad · Lowrance</div>
@@ -178,7 +178,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
       </div>
     </div>
     <div class="project">
-      <div class="proj-img"><img src="https://cdn.shopify.com/s/files/1/0773/2589/3810/files/bep.jpg?v=1779345416" alt="BEP Marine Smart Battery Hub" loading="lazy"></div>
+      <div class="proj-img"><img src="https://res.cloudinary.com/dtxr6zjwc/image/upload/f_auto,q_auto/v1780047352/bep_hwi8dp.jpg" alt="BEP Marine Smart Battery Hub" loading="lazy"></div>
       <div class="proj-body">
         <div class="proj-num">02</div>
         <div class="proj-company">BEP Marine / ASG by Brunswick</div>
@@ -189,7 +189,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
       </div>
     </div>
     <div class="project">
-      <div class="proj-img"><img src="https://cdn.shopify.com/s/files/1/0773/2589/3810/files/SISTEMA_1.jpg?v=1779345588" alt="Sistema Plastics Storage" loading="lazy"></div>
+      <div class="proj-img"><img src="https://res.cloudinary.com/dtxr6zjwc/image/upload/f_auto,q_auto/v1780047453/SISTEMA_2_myw8e6.jpg" alt="Sistema Plastics Storage" loading="lazy"></div>
       <div class="proj-body">
         <div class="proj-num">03</div>
         <div class="proj-company">Sistema Plastics</div>
@@ -200,7 +200,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
       </div>
     </div>
     <div class="project">
-      <div class="proj-img"><img src="https://cdn.shopify.com/s/files/1/0773/2589/3810/files/f_AND_p_2.jpg?v=1779345531" alt="Fisher & Paykel Refrigeration" loading="lazy"></div>
+      <div class="proj-img"><img src="https://res.cloudinary.com/dtxr6zjwc/image/upload/f_auto,q_auto/v1780047432/f_AND_p_2_vzk13m.jpg" alt="Fisher & Paykel Refrigeration" loading="lazy"></div>
       <div class="proj-body">
         <div class="proj-num">04</div>
         <div class="proj-company">Fisher &amp; Paykel Appliances</div>
@@ -220,7 +220,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
   </div>
   <div class="grid reveal">
     <div class="project">
-      <div class="proj-img"><img src="https://cdn.shopify.com/s/files/1/0773/2589/3810/files/Slab_1.jpg?v=1779345631" alt="Galaxy Speaker — Sony" loading="lazy"></div>
+      <div class="proj-img"><img src="https://res.cloudinary.com/dtxr6zjwc/image/upload/f_auto,q_auto/v1780047487/Slab_1_eyj0jl.jpg" alt="Galaxy Speaker — Sony" loading="lazy"></div>
       <div class="proj-body">
         <div class="proj-num">05</div>
         <div class="proj-company">Slab International — Sony USA</div>
@@ -231,7 +231,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
       </div>
     </div>
     <div class="project">
-      <div class="proj-img"><img src="https://cdn.shopify.com/s/files/1/0773/2589/3810/files/Slab_3.jpg?v=1779567917" alt="Galaxy Speaker — Maxell" loading="lazy"></div>
+      <div class="proj-img"><img src="https://res.cloudinary.com/dtxr6zjwc/image/upload/f_auto,q_auto/v1780047487/Slab_3_elognr.jpg" alt="Galaxy Speaker — Maxell" loading="lazy"></div>
       <div class="proj-body">
         <div class="proj-num">06</div>
         <div class="proj-company">Slab International — Maxell</div>
@@ -242,7 +242,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
       </div>
     </div>
     <div class="project">
-      <div class="proj-img"><img src="https://cdn.shopify.com/s/files/1/0773/2589/3810/files/Cablemate_1.jpg?v=1779345452" alt="cableMATE Elevator Tool" loading="lazy"></div>
+      <div class="proj-img"><img src="https://res.cloudinary.com/dtxr6zjwc/image/upload/f_auto,q_auto/v1780047370/Cablemate_1_xbeyhz.jpg" alt="cableMATE Elevator Tool" loading="lazy"></div>
       <div class="proj-body">
         <div class="proj-num">07</div>
         <div class="proj-company">Unitec NZ &mdash; NZ Plastics Gold Prize 2004</div>
@@ -253,7 +253,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
       </div>
     </div>
     <div class="project">
-      <div class="proj-img"><img src="https://cdn.shopify.com/s/files/1/0773/2589/3810/files/Channel_Vision_2.jpg?v=1779345511" alt="Channel Vision Docking Stations" loading="lazy"></div>
+      <div class="proj-img"><img src="https://res.cloudinary.com/dtxr6zjwc/image/upload/f_auto,q_auto/v1780047404/Channel_Vision_2_dxhyqk.jpg" alt="Channel Vision Docking Stations" loading="lazy"></div>
       <div class="proj-body">
         <div class="proj-num">08</div>
         <div class="proj-company">Channel Vision USA</div>
@@ -281,7 +281,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;fo
     <div class="footer-logo">NINAVA</div>
     <div class="footer-mid">&copy; 2025 Ninava Studio Ltd &nbsp;&nbsp;·&nbsp;&nbsp; Auckland, New Zealand</div>
     <div class="footer-right">
-      <a href="mailto:saleh@ninavastudio.com">saleh@ninavastudio.com</a> &nbsp;·&nbsp;
+      <a href="mailto:info@ninavastudio.com">info@ninavastudio.com</a> &nbsp;·&nbsp;
       <a href="tel:+64211262516">+64 21 126 2516</a>
     </div>
   </footer>
